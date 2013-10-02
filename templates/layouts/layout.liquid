@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>{% block title %}Mixture + Bootstrap{% endblock %}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		{{ "bootstrap.css" | asset_url | stylesheet_tag }}
+		{{ "theme.css" | asset_url | stylesheet_tag }}
+		<!-- TODO: Complete this project :) -->
+	</head>
+	<body>
+		{% include "navigation" %}
+		<div class="container wrap-page-content page-chooseproducts">
+			{% block content %}{% endblock %}
+		</div>
+		<script src="//code.jquery.com/jquery.min.js"></script>
+		{{ "bootstrap.js" | asset_url | script_tag }}
+
+		<script type="text/javascript">
+			$('.slider').slider()
+		</script>
+	</body>
+</html>

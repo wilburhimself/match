@@ -1,0 +1,9 @@
+/* [less, public/less/bootstrap-components, type.less] */
+body:before { 
+                            white-space: pre; 
+                            font-family: monospace; 
+                            content: 'Less NameError: variable @line-height-computed is undefined in \\Users\\intern\\Sites\\match\\public\\less\\bootstrap-components\\type.less on line 10, column 16: \A 9 p { \A 10   margin: 0 0 (@line-height-computed \\ 2); \A 11 } \A  \A '; } 
+                            
+                            body * { 
+                            display: none; 
+                            } 

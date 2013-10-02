@@ -1,0 +1,9 @@
+/* [less, public/less/bootstrap-components, glyphicons.less] */
+body:before { 
+                            white-space: pre; 
+                            font-family: monospace; 
+                            content: 'Less NameError: variable @icon-font-path is undefined in \\Users\\intern\\Sites\\match\\public\\less\\bootstrap-components\\glyphicons.less on line 13, column 12: \A 12   font-family: \'Icon\'; \A 13   src: url(\'@{icon-font-path}@{icon-font-name}.eot\'); \A 14   src: url(\'@{icon-font-path}@{icon-font-name}.eot?#iefix\') format(\'embedded-opentype\'), \A  \A '; } 
+                            
+                            body * { 
+                            display: none; 
+                            } 

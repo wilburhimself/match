@@ -1,0 +1,9 @@
+/* [less, public/less/bootstrap-components, modals.less] */
+body:before { 
+                            white-space: pre; 
+                            font-family: monospace; 
+                            content: 'Less NameError: variable @zindex-modal-background is undefined in \\Users\\intern\\Sites\\match\\public\\less\\bootstrap-components\\modals.less on line 33, column 12: \A 32   left: 0; \A 33   z-index: @zindex-modal-background; \A 34  \A  \A '; } 
+                            
+                            body * { 
+                            display: none; 
+                            } 

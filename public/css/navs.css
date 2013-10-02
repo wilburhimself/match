@@ -1,0 +1,9 @@
+/* [less, public/less/bootstrap-components, navs.less] */
+body:before { 
+                            white-space: pre; 
+                            font-family: monospace; 
+                            content: 'Less NameError: .clearfix is undefined in \\Users\\intern\\Sites\\match\\public\\less\\bootstrap-components\\navs.less on line 13, column 3: \A 12   list-style: none; \A 13   .clearfix(); \A 14  \A  \A '; } 
+                            
+                            body * { 
+                            display: none; 
+                            } 

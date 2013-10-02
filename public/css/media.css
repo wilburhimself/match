@@ -1,0 +1,37 @@
+/* [less, public/less/bootstrap-components, media.less] */
+/* line 10, /Users/intern/Sites/match/public/less/bootstrap-components/media.less */
+.media,
+.media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+/* line 17, /Users/intern/Sites/match/public/less/bootstrap-components/media.less */
+.media,
+.media .media {
+  margin-top: 15px;
+}
+/* line 21, /Users/intern/Sites/match/public/less/bootstrap-components/media.less */
+.media:first-child {
+  margin-top: 0;
+}
+/* line 26, /Users/intern/Sites/match/public/less/bootstrap-components/media.less */
+.media-object {
+  display: block;
+}
+/* line 31, /Users/intern/Sites/match/public/less/bootstrap-components/media.less */
+.media-heading {
+  margin: 0 0 5px;
+}
+/* line 40, /Users/intern/Sites/match/public/less/bootstrap-components/media.less */
+.media > .pull-left {
+  margin-right: 10px;
+}
+/* line 43, /Users/intern/Sites/match/public/less/bootstrap-components/media.less */
+.media > .pull-right {
+  margin-left: 10px;
+}
+/* line 53, /Users/intern/Sites/match/public/less/bootstrap-components/media.less */
+.media-list {
+  padding-left: 0;
+  list-style: none;
+}

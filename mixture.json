@@ -1,0 +1,20 @@
+{
+  "debug": true,
+  "domain": null,
+  "lintScripts": false,
+  "modelSource": null,
+  "preprocessorLocations": "public",
+  "preprocessorScriptOutput": "public/js",
+  "preprocessorStyleOutput": "public/css",
+  "projectDescription": "An app for matching you up with your favorite bauty products.",
+  "projectName": "Match App",
+  "publishedId": "8016",
+  "serverHostname": null,
+  "serverPort": null,
+  "simpleModePartnerServer": null,
+  "templateDefaultLayout": "layout",
+  "templateDefaultPage": "index",
+  "templateDirectory": "templates",
+  "type": "mixture",
+  "useCompass": false
+}

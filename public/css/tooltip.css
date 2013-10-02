@@ -1,0 +1,9 @@
+/* [less, public/less/bootstrap-components, tooltip.less] */
+body:before { 
+                            white-space: pre; 
+                            font-family: monospace; 
+                            content: 'Less NameError: .opacity is undefined in \\Users\\intern\\Sites\\match\\public\\less\\bootstrap-components\\tooltip.less on line 14, column 3: \A 13   line-height: 1.4; \A 14   .opacity(0); \A 15  \A  \A '; } 
+                            
+                            body * { 
+                            display: none; 
+                            } 

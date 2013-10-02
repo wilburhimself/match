@@ -1,0 +1,9 @@
+/* [less, public/less/bootstrap-components, navbar.less] */
+body:before { 
+                            white-space: pre; 
+                            font-family: monospace; 
+                            content: 'Less NameError: .clearfix is undefined in \\Users\\intern\\Sites\\match\\public\\less\\bootstrap-components\\navbar.less on line 19, column 3: \A 18   \\\\ Prevent floats from breaking the navbar \A 19   .clearfix(); \A 20  \A  \A '; } 
+                            
+                            body * { 
+                            display: none; 
+                            } 

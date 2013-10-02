@@ -1,0 +1,9 @@
+/* [less, public/less/bootstrap-components, forms.less] */
+body:before { 
+                            white-space: pre; 
+                            font-family: monospace; 
+                            content: 'Less NameError: variable @line-height-computed is undefined in \\Users\\intern\\Sites\\match\\public\\less\\bootstrap-components\\forms.less on line 20, column 18: \A 19   padding: 0; \A 20   margin-bottom: @line-height-computed; \A 21   font-size: (@font-size-base * 1.5); \A  \A '; } 
+                            
+                            body * { 
+                            display: none; 
+                            } 

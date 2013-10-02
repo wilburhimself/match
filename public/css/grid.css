@@ -1,0 +1,9 @@
+/* [less, public/less/bootstrap-components, grid.less] */
+body:before { 
+                            white-space: pre; 
+                            font-family: monospace; 
+                            content: 'Less NameError: .container-fixed is undefined in \\Users\\intern\\Sites\\match\\public\\less\\bootstrap-components\\grid.less on line 8, column 3: \A 7 .container { \A 8   .container-fixed(); \A 9 } \A  \A '; } 
+                            
+                            body * { 
+                            display: none; 
+                            } 

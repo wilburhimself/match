@@ -1,0 +1,9 @@
+/* [less, public/less/bootstrap-components, breadcrumbs.less] */
+body:before { 
+                            white-space: pre; 
+                            font-family: monospace; 
+                            content: 'Less NameError: variable @line-height-computed is undefined in \\Users\\intern\\Sites\\match\\public\\less\\bootstrap-components\\breadcrumbs.less on line 8, column 18: \A 7   padding: 8px 15px; \A 8   margin-bottom: @line-height-computed; \A 9   list-style: none; \A  \A '; } 
+                            
+                            body * { 
+                            display: none; 
+                            } 

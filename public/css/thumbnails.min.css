@@ -1,0 +1,1 @@
+body:before{white-space:pre;font-family:monospace;content:'Less NameError: .img-thumbnail is undefined in \\Users\\intern\\Sites\\match\\public\\less\\bootstrap-components\\thumbnails.less on line 8, column 3: \A 7 .thumbnail { \A 8   .img-thumbnail(); \A 9   display: block; \\\\ Override the inline-block from `.img-thumbnail` \A  \A '}body *{display:none}

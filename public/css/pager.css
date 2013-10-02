@@ -1,0 +1,9 @@
+/* [less, public/less/bootstrap-components, pager.less] */
+body:before { 
+                            white-space: pre; 
+                            font-family: monospace; 
+                            content: 'Less NameError: .clearfix is undefined in \\Users\\intern\\Sites\\match\\public\\less\\bootstrap-components\\pager.less on line 11, column 3: \A 10   text-align: center; \A 11   .clearfix(); \A 12   li { \A  \A '; } 
+                            
+                            body * { 
+                            display: none; 
+                            } 

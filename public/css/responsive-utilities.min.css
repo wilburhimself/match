@@ -1,0 +1,1 @@
+body:before{white-space:pre;font-family:monospace;content:'Less NameError: .responsive-invisibility is undefined in \\Users\\intern\\Sites\\match\\public\\less\\bootstrap-components\\responsive-utilities.less on line 39, column 3: \A 38 .visible-xs { \A 39   .responsive-invisibility(); \A 40   @media (max-width: @screen-xs-max) { \A  \A '}body *{display:none}

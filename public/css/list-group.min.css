@@ -1,0 +1,1 @@
+body:before{white-space:pre;font-family:monospace;content:'Less NameError: variable @list-group-bg is undefined in \\Users\\intern\\Sites\\match\\public\\less\\bootstrap-components\\list-group.less on line 23, column 21: \A 22   margin-bottom: -1px; \A 23   background-color: @list-group-bg; \A 24   border: 1px solid @list-group-border; \A  \A '}body *{display:none}

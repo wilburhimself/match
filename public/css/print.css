@@ -1,0 +1,90 @@
+/* [less, public/less/core, print.less] */
+@media print {
+  /* line 8, /Users/intern/Sites/match/public/less/core/print.less */
+  * {
+    text-shadow: none !important;
+    color: #000 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  /* line 15, /Users/intern/Sites/match/public/less/core/print.less */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  /* line 20, /Users/intern/Sites/match/public/less/core/print.less */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  /* line 24, /Users/intern/Sites/match/public/less/core/print.less */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /* line 29, /Users/intern/Sites/match/public/less/core/print.less */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+  /* line 35, /Users/intern/Sites/match/public/less/core/print.less */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /* line 41, /Users/intern/Sites/match/public/less/core/print.less */
+  thead {
+    display: table-header-group;
+  }
+  /* line 45, /Users/intern/Sites/match/public/less/core/print.less */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  /* line 50, /Users/intern/Sites/match/public/less/core/print.less */
+  img {
+    max-width: 100% !important;
+  }
+  @page  {
+    margin: 2cm .5cm;
+  }
+  /* line 58, /Users/intern/Sites/match/public/less/core/print.less */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  /* line 65, /Users/intern/Sites/match/public/less/core/print.less */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+  /* line 71, /Users/intern/Sites/match/public/less/core/print.less */
+  .navbar {
+    display: none;
+  }
+  /* line 75, /Users/intern/Sites/match/public/less/core/print.less */
+  .table td,
+  .table th {
+    background-color: #fff !important;
+  }
+  /* line 82, /Users/intern/Sites/match/public/less/core/print.less */
+  .btn > .caret,
+  .dropup > .btn > .caret {
+    border-top-color: #000 !important;
+  }
+  /* line 86, /Users/intern/Sites/match/public/less/core/print.less */
+  .label {
+    border: 1px solid #000;
+  }
+  /* line 90, /Users/intern/Sites/match/public/less/core/print.less */
+  .table {
+    border-collapse: collapse !important;
+  }
+  /* line 94, /Users/intern/Sites/match/public/less/core/print.less */
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd !important;
+  }
+}

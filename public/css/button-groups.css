@@ -1,0 +1,9 @@
+/* [less, public/less/bootstrap-components, button-groups.less] */
+body:before { 
+                            white-space: pre; 
+                            font-family: monospace; 
+                            content: 'Less NameError: variable @btn-default-color is undefined in \\Users\\intern\\Sites\\match\\public\\less\\bootstrap-components\\button-groups.less on line 11, column 23: \A 10   .btn-default & { \A 11     border-top-color: @btn-default-color; \A 12   } \A  \A '; } 
+                            
+                            body * { 
+                            display: none; 
+                            } 
