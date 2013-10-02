@@ -1,8 +1,37 @@
-{% block content %}
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Mixture + Bootstrap</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="public/css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+		<link href="public/css/theme.css" rel="stylesheet" type="text/css" media="all"/>
+		<!-- TODO: Complete this project :) -->
+	</head>
+	<body>
+		<div class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div>
+			<ol class="nav navbar-nav navbar-right">
+				<li >
+					<a href="choose-1.html"><span>01</span>Choose Your Products</a>
+				</li>
+				<li >
+					<a href="concerns-1.html"><span>02</span>Tell Us Your Concerns</a>
+				</li>
+				<li class="active">
+					<a href="customize-1.html"><span>03</span>Customize Your Match</a>
+				</li>
+			</ol>
+		</div>
+	</div>
+</div>
+		<div class="container wrap-page-content page-chooseproducts">
+			
 	<div class="wrap-page-header page-section-header">
 		<header class="row">
 			<h1 class="name col-md-4">
-				<a href="/">{{ "250x125" | placeholder:'86B3DA' | image_tag:'Logo' }}</a>
+				<a href="/"><img src="http://imgsrc.me/250x125/86B3DA" alt="Logo" /></a>
 			</h1>
 			<div class="section-title col-md-8">
 				<h2>Choose your skin care products</h2>
@@ -44,4 +73,13 @@
 			</div>
 		</section>
 	</div>
-{% endblock %}
+
+		</div>
+		<script src="//code.jquery.com/jquery.min.js"></script>
+		<script src="public/js/bootstrap.js"></script>
+
+		<script type="text/javascript">
+			$('.slider').slider()
+		</script>
+	</body>
+</html>
